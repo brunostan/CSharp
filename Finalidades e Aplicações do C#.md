@@ -206,7 +206,5 @@ Essa biblioteca é utilizada no desenvolvimento de microserviços com C#. O ASP.
 
 O Entity Framework é um ORM (Object-Relational Mapping) que permite aos desenvolvedores trabalhar com bancos de dados relacionais utilizando objetos. Ele fornece classes para mapear entidades do banco de dados para classes C#, realizar consultas LINQ (Language-Integrated Query) e gerenciar transações.
 
-Essas são apenas algumas das bibliotecas e classes mais utilizadas em C#. A linguagem oferece uma ampla gama de opções para os desenvolvedores, permitindo que eles criem uma variedade de aplicativos de forma eficiente e eficaz.
-
 
 Essas são apenas algumas das bibliotecas e frameworks mais utilizados em conjunto com o C#. O ecossistema do C# oferece uma ampla variedade de opções para os desenvolvedores, permitindo que eles criem aplicativos eficientes e robustos em diferentes plataformas e arquiteturas.
