@@ -2,7 +2,7 @@
 
 O C# (C Sharp) é uma linguagem de programação versátil e poderosa amplamente utilizada no desenvolvimento de uma variedade de aplicativos, desde aplicações de desktop até aplicativos móveis, web e microserviços. Com recursos avançados e uma ampla gama de bibliotecas disponíveis, o C# oferece muitas opções para os desenvolvedores implementarem funcionalidades complexas em seus projetos. Neste artigo, exploraremos algumas das principais finalidades e aplicações do C#, juntamente com as bibliotecas e frameworks mais utilizados. 
     
-## 1. Desenvolvimento de Aplicativos para Windows
+## 1. Desenvolvimento de Aplicativos para Windows com WinForms
 
 Uma das principais aplicações do C# é o desenvolvimento de aplicativos para a plataforma Windows. Nesse contexto, uma das bibliotecas mais utilizadas é o Windows Forms (WinForms), que permite criar interfaces gráficas de usuário (GUI) de forma fácil e intuitiva. Com o WinForms, é possível criar janelas, botões, caixas de diálogo e outros elementos interativos. 
 
@@ -59,7 +59,7 @@ namespace YourNamespace
 
 ```
 
-## 2. Desenvolvimento de Aplicativos Web
+## 2. Desenvolvimento de Aplicativos Web com ASP.NET MVC
 
 Outra aplicação popular do C# é o desenvolvimento de aplicativos web utilizando o framework ASP.NET. O ASP.NET oferece uma ampla gama de recursos e bibliotecas, sendo o ASP.NET MVC (Model-View-Controller) um dos mais utilizados. Com o ASP.NET MVC, é possível criar aplicativos web escaláveis e de fácil manutenção. A arquitetura baseada em MVC separa a lógica de negócios (modelo), a interface do usuário (visão) e o controle da aplicação (controlador). 
 
@@ -90,7 +90,7 @@ namespace YourNamespace.Controllers
 }
 ```
 
-## 3. Desenvolvimento de Aplicativos Móveis
+## 3. Desenvolvimento de Aplicativos Móveis com Xamarin.Forms
 
 Com o uso do framework Xamarin, o C# também pode ser utilizado no desenvolvimento de aplicativos móveis multiplataforma para iOS e Android. O Xamarin permite que você compartilhe a lógica de negócios entre as plataformas, economizando tempo e esforço. É possível criar interfaces de usuário nativas utilizando a biblioteca Xamarin.Forms. 
 
@@ -140,7 +140,7 @@ namespace YourNamespace
 }
 ```
 
-## 4. Desenvolvimento de Microserviços
+## 4. Desenvolvimento de Microserviços com ASP.NET Core
 
 O C# também é amplamente utilizado no desenvolvimento de microserviços, uma arquitetura de software que permite a construção de aplicativos escaláveis e distribuídos. Os microserviços são pequenos componentes independentes que se comunicam entre si por meio de APIs, trabalhando de forma cooperativa para fornecer funcionalidades específicas.
 
