@@ -30,7 +30,7 @@ class Program
 }
 ```
 
-Melhores práticas:
+### Melhores práticas:
 
 - Organização do código: Divida seu código em namespaces e assemblies para facilitar a manutenção e reutilização. Use convenções de nomenclatura claras e consistentes para classes, métodos e variáveis.
 
@@ -64,6 +64,14 @@ namespace MyApp.Controllers
     }
 }
 ```
+
+### Melhores práticas: 
+
+- Separação de responsabilidades: Siga o padrão MVC (Model-View-Controller) para separar a lógica de negócios, a apresentação e a interação do usuário. Isso facilita a manutenção e o teste do código.
+
+- Validação de entrada: Valide e sanitize todas as entradas do usuário para prevenir ataques de injeção e garantir a integridade dos dados. Utilize recursos de validação embutidos no ASP.NET, como anotações de atributo e validadores personalizados.
+
+- Otimização de desempenho: Implemente técnicas de cache para reduzir o tempo de resposta e o consumo de recursos. Minimize o uso de sessões e evite o acesso desnecessário ao banco de dados.
 
 ## 3. Biblioteca Windows Forms (WinForms)
 
