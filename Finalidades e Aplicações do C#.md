@@ -10,29 +10,50 @@ Uma das principais aplicações do C# é o desenvolvimento de aplicativos para a
 using System;
 using System.Windows.Forms;
 
-public class Program
+namespace YourNamespace
 {
-    static void Main()
+    public class Program
     {
-        Application.Run(new Form1());
+        [STAThread] // Define o modelo de thread de aptidão de execução única para interagir com componentes COM e suportar a interface do usuário.
+        static void Main()
+        {
+            // Define o modo de DPI e habilita estilos visuais fornecidos pelo sistema operacional
+            Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            Application.EnableVisualStyles();
+
+            // Executa o aplicativo
+            Application.Run(new Form1());
+        }
+    }
+
+    public class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponents();
+        }
+
+        private void InitializeComponents()
+        {
+            // Cria um botão e define suas propriedades
+            Button button = new Button();
+            button.Text = "Clique-me!";
+
+            // Registra o manipulador de eventos para o clique do botão
+            button.Click += Button_Click;
+
+            // Adiciona o botão ao formulário
+            Controls.Add(button);
+        }
+
+        private void Button_Click(object sender, EventArgs e)
+        {
+            // Exibe uma mensagem quando o botão é clicado
+            MessageBox.Show("Você clicou no botão!");
+        }
     }
 }
 
-public class Form1 : Form
-{
-    public Form1()
-    {
-        Button button = new Button();
-        button.Text = "Clique-me!";
-        button.Click += Button_Click;
-        Controls.Add(button);
-    }
-
-    private void Button_Click(object sender, EventArgs e)
-    {
-        MessageBox.Show("Você clicou no botão!");
-    }
-}
 ```
 
 ## 2. Desenvolvimento de Aplicativos Web
