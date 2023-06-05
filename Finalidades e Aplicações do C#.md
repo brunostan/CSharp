@@ -1,7 +1,9 @@
 # Finalidades e Aplicações do C#
+
 C# (C Sharp) é uma linguagem de programação versátil e poderosa que é amplamente utilizada para desenvolver uma variedade de aplicativos, desde aplicações de desktop até aplicativos móveis e web. Com uma ampla gama de bibliotecas disponíveis, C# oferece muitas opções para os desenvolvedores implementarem funcionalidades complexas em seus projetos. Vamos explorar algumas das principais finalidades e aplicações do C#, juntamente com as bibliotecas e classes mais utilizadas.
 
 **1. Desenvolvimento de Aplicativos para Windows**
+
 Uma das principais aplicações do C# é o desenvolvimento de aplicativos para a plataforma Windows. Nesse contexto, a biblioteca mais utilizada é o Windows Forms (WinForms), que permite criar interfaces gráficas de usuário (GUI) de forma fácil e intuitiva. Com o WinForms, você pode criar janelas, botões, caixas de diálogo e outros elementos interativos. Vamos ver um exemplo simples de código usando o WinForms:
 
 ```csharp
@@ -34,6 +36,7 @@ public class Form1 : Form
 ```
 
 **2. Desenvolvimento de Aplicativos Web**
+
 Outra aplicação popular do C# é o desenvolvimento de aplicativos web usando a estrutura ASP.NET. A biblioteca principal nesse contexto é o ASP.NET MVC (Model-View-Controller), que permite criar aplicativos web escaláveis e de fácil manutenção. O ASP.NET MVC separa a lógica de negócios (modelo), a interface do usuário (visualização) e o controle da aplicação (controlador). Vejamos um exemplo de um controlador simples usando o ASP.NET MVC:
 
 ```csharp
@@ -55,6 +58,7 @@ public class HomeController : Controller
 ```
 
 **3. Desenvolvimento de Aplicativos Móveis**
+
 Com o uso do framework Xamarin, C# também pode ser usado para desenvolver aplicativos móveis multiplataforma para iOS e Android. O Xamarin permite que você compartilhe a lógica de negócios entre as plataformas, economizando tempo e esforço. Você pode criar interfaces de usuário nativas usando a biblioteca Xamarin.Forms. Vamos ver um exemplo simples de código usando o Xamarin.Forms:
 
 ```csharp
@@ -91,6 +95,7 @@ public class MainPage : ContentPage
 ```
 
 **Principais Bibliotecas e Classes em C#**
+
 Agora, vamos falar sobre algumas das principais bibliotecas utilizadas em C#, juntamente com as suas classes mais utilizadas:
 
 Biblioteca .NET Framework: Essa é a biblioteca base do C#, fornecendo uma ampla gama de classes e funcionalidades essenciais para o desenvolvimento em C#. Ela inclui classes para manipulação de arquivos, acesso a bancos de dados, serialização, criptografia, entre outros recursos fundamentais.
