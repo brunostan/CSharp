@@ -93,32 +93,43 @@ Com o uso do framework Xamarin, C# também pode ser usado para desenvolver aplic
 ```csharp
 using Xamarin.Forms;
 
-public class App : Application
+namespace YourNamespace
 {
-    public App()
+    public class App : Application
     {
-        MainPage = new MainPage();
-    }
-}
-
-public class MainPage : ContentPage
-{
-    public MainPage()
-    {
-        Button button = new Button
+        public App()
         {
-            Text = "Clique-me!"
-        };
-        button.Clicked += Button_Clicked;
-        Content = new StackLayout
-        {
-            Children = { button }
-        };
+            // Define a página principal como MainPage
+            MainPage = new MainPage();
+        }
     }
 
-    private void Button_Clicked(object sender, EventArgs e)
+    public class MainPage : ContentPage
     {
-        DisplayAlert("Alerta", "Você clicou no botão!", "OK");
+        public MainPage()
+        {
+            // Cria um botão e define sua propriedade Text
+            Button button = new Button
+            {
+                Text = "Clique-me!"
+            };
+
+            // Registra o manipulador de eventos para o evento Clicked do botão
+            button.Clicked += Button_Clicked;
+
+            // Cria um layout de pilha e adiciona o botão a ele
+            Content = new StackLayout
+            {
+                Children = { button }
+            };
+        }
+
+        // Manipulador de eventos para o evento Clicked do botão
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            // Exibe um alerta com a mensagem quando o botão é clicado
+            await DisplayAlert("Alerta", "Você clicou no botão!", "OK");
+        }
     }
 }
 ```
