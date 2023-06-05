@@ -35,6 +35,7 @@ public class Form1 : Form
 }
 ```
 
+
 **2. Desenvolvimento de Aplicativos Web**
 
 Outra aplicação popular do C# é o desenvolvimento de aplicativos web usando a estrutura ASP.NET. A biblioteca principal nesse contexto é o ASP.NET MVC (Model-View-Controller), que permite criar aplicativos web escaláveis e de fácil manutenção. O ASP.NET MVC separa a lógica de negócios (modelo), a interface do usuário (visualização) e o controle da aplicação (controlador). Vejamos um exemplo de um controlador simples usando o ASP.NET MVC:
@@ -56,6 +57,7 @@ public class HomeController : Controller
     }
 }
 ```
+
 
 **3. Desenvolvimento de Aplicativos Móveis**
 
@@ -93,6 +95,7 @@ public class MainPage : ContentPage
     }
 }
 ```
+
 
 **Principais Bibliotecas e Classes em C#**
 
