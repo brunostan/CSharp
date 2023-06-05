@@ -245,7 +245,7 @@ O C# possui uma ampla gama de bibliotecas e frameworks que facilitam o desenvolv
 
 ### Biblioteca .NET Framework
 
-Essa biblioteca é a base do C# e fornece uma ampla gama de classes e funcionalidades essenciais para o desenvolvimento em C#. Ela inclui classes para manipulação de arquivos, acesso a bancos de dados, serialização, criptografia, entre outros recursos fundamentais.
+Essa biblioteca é a base do C# e fornece uma ampla gama de classes e funcionalidades essenciais para o desenvolvimento em C#. Ela inclui classes para manipulação de arquivos, acesso a bancos de dados, serialização, criptografia e outros recursos fundamentais.
 
 ### Biblioteca ASP.NET
 
