@@ -15,17 +15,20 @@ Exemplo de código usando a biblioteca .NET Framework:
 ```csharp
 using System;
 
-class Program
+namespace MeuNamespace
 {
-    static void Main()
+    class Program
     {
-        // Exemplo de uso da biblioteca .NET Framework
-        // Vamos usar a classe Console para exibir uma mensagem na tela
+        static void Main()
+        {
+            // Exemplo de uso da biblioteca .NET Framework
+            // Vamos usar a classe Console para exibir uma mensagem na tela
 
-        Console.WriteLine("Olá, mundo!");
+            Console.WriteLine("Olá, mundo!");
 
-        // Aguarde a entrada do usuário antes de encerrar o programa
-        Console.ReadLine();
+            // Aguarde a entrada do usuário antes de encerrar o programa
+            Console.ReadLine();
+        }
     }
 }
 ```
