@@ -4,8 +4,7 @@ C# (C Sharp) é uma linguagem de programação versátil e poderosa que é ampla
 1. Desenvolvimento de Aplicativos para Windows
 Uma das principais aplicações do C# é o desenvolvimento de aplicativos para a plataforma Windows. Nesse contexto, a biblioteca mais utilizada é o Windows Forms (WinForms), que permite criar interfaces gráficas de usuário (GUI) de forma fácil e intuitiva. Com o WinForms, você pode criar janelas, botões, caixas de diálogo e outros elementos interativos. Vamos ver um exemplo simples de código usando o WinForms:
 
-csharp
-Copy code
+```csharp
 using System;
 using System.Windows.Forms;
 
@@ -32,11 +31,12 @@ public class Form1 : Form
         MessageBox.Show("Você clicou no botão!");
     }
 }
+```
+
 2. Desenvolvimento de Aplicativos Web
 Outra aplicação popular do C# é o desenvolvimento de aplicativos web usando a estrutura ASP.NET. A biblioteca principal nesse contexto é o ASP.NET MVC (Model-View-Controller), que permite criar aplicativos web escaláveis e de fácil manutenção. O ASP.NET MVC separa a lógica de negócios (modelo), a interface do usuário (visualização) e o controle da aplicação (controlador). Vejamos um exemplo de um controlador simples usando o ASP.NET MVC:
 
-csharp
-Copy code
+```csharp
 using System.Web.Mvc;
 
 public class HomeController : Controller
@@ -52,11 +52,12 @@ public class HomeController : Controller
         return View();
     }
 }
+```
+
 3. Desenvolvimento de Aplicativos Móveis
 Com o uso do framework Xamarin, C# também pode ser usado para desenvolver aplicativos móveis multiplataforma para iOS e Android. O Xamarin permite que você compartilhe a lógica de negócios entre as plataformas, economizando tempo e esforço. Você pode criar interfaces de usuário nativas usando a biblioteca Xamarin.Forms. Vamos ver um exemplo simples de código usando o Xamarin.Forms:
 
-csharp
-Copy code
+```csharp
 using Xamarin.Forms;
 
 public class App : Application
@@ -87,6 +88,8 @@ public class MainPage : ContentPage
         DisplayAlert("Alerta", "Você clicou no botão!", "OK");
     }
 }
+```
+
 Principais Bibliotecas e Classes em C#
 Agora, vamos falar sobre algumas das principais bibliotecas utilizadas em C#, juntamente com as suas classes mais utilizadas:
 
