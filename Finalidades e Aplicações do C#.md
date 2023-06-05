@@ -15,7 +15,7 @@ Exemplo de código usando a biblioteca .NET Framework:
 ```csharp
 using System;
 
-namespace MeuNamespace
+namespace MyApp
 {
     class Program
     {
