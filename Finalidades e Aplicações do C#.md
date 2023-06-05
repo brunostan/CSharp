@@ -41,7 +41,6 @@ namespace MeuNamespace
 
 - Gerenciamento de recursos: Utilize blocos using para garantir a liberação correta de recursos, como conexões de banco de dados e objetos IDisposable. Evite deixar recursos abertos por mais tempo do que o necessário.
 
-###  
 
 ## 2. Biblioteca ASP.NET
 
