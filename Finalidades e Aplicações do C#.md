@@ -96,7 +96,7 @@ public class MainPage : ContentPage
 
 ## Principais Bibliotecas e Classes em C# 
 
-# Agora, vamos falar sobre algumas das principais bibliotecas utilizadas em C#, juntamente com as suas classes mais utilizadas:
+## Agora, vamos falar sobre algumas das principais bibliotecas utilizadas em C#, juntamente com as suas classes mais utilizadas:
 
 Biblioteca .NET Framework: Essa é a biblioteca base do C#, fornecendo uma ampla gama de classes e funcionalidades essenciais para o desenvolvimento em C#. Ela inclui classes para manipulação de arquivos, acesso a bancos de dados, serialização, criptografia, entre outros recursos fundamentais.
 
