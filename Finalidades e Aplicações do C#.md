@@ -96,16 +96,26 @@ public class MainPage : ContentPage
 
 ## Principais Bibliotecas e Classes em C# 
 
-### Agora, vamos falar sobre algumas das principais bibliotecas utilizadas em C#, juntamente com as suas classes mais utilizadas:
+Agora, vamos falar sobre algumas das principais bibliotecas utilizadas em C#, juntamente com as suas classes mais utilizadas:
 
-Biblioteca .NET Framework: Essa é a biblioteca base do C#, fornecendo uma ampla gama de classes e funcionalidades essenciais para o desenvolvimento em C#. Ela inclui classes para manipulação de arquivos, acesso a bancos de dados, serialização, criptografia, entre outros recursos fundamentais.
+### Biblioteca .NET Framework
 
-Biblioteca ASP.NET: Essa biblioteca é usada para desenvolvimento web com C#. Ela inclui o ASP.NET MVC, que fornece classes para controle de roteamento, autenticação, gerenciamento de sessões e outros recursos relacionados ao desenvolvimento web.
+Essa é a biblioteca base do C#, fornecendo uma ampla gama de classes e funcionalidades essenciais para o desenvolvimento em C#. Ela inclui classes para manipulação de arquivos, acesso a bancos de dados, serialização, criptografia, entre outros recursos fundamentais.
 
-Biblioteca Windows Forms (WinForms): O WinForms fornece classes para criar interfaces gráficas de usuário para aplicativos Windows. Ele inclui classes para criar janelas, botões, caixas de diálogo e outros elementos da interface do usuário.
+### Biblioteca ASP.NET
 
-Biblioteca Xamarin: Essa biblioteca é usada para desenvolvimento de aplicativos móveis multiplataforma com C#. Ela inclui o Xamarin.Forms, que permite criar interfaces de usuário nativas para iOS e Android, compartilhando a lógica de negócios entre as plataformas.
+Essa biblioteca é usada para desenvolvimento web com C#. Ela inclui o ASP.NET MVC, que fornece classes para controle de roteamento, autenticação, gerenciamento de sessões e outros recursos relacionados ao desenvolvimento web.
 
-Biblioteca Entity Framework: O Entity Framework é um ORM (Object-Relational Mapping) que permite aos desenvolvedores trabalhar com bancos de dados relacionais usando objetos. Ele fornece classes para mapear entidades do banco de dados para classes C#, realizar consultas LINQ (Language-Integrated Query) e gerenciar transações.
+### Biblioteca Windows Forms (WinForms)
+
+O WinForms fornece classes para criar interfaces gráficas de usuário para aplicativos Windows. Ele inclui classes para criar janelas, botões, caixas de diálogo e outros elementos da interface do usuário.
+
+### Biblioteca Xamarin
+
+Essa biblioteca é usada para desenvolvimento de aplicativos móveis multiplataforma com C#. Ela inclui o Xamarin.Forms, que permite criar interfaces de usuário nativas para iOS e Android, compartilhando a lógica de negócios entre as plataformas.
+
+### Biblioteca Entity Framework
+
+O Entity Framework é um ORM (Object-Relational Mapping) que permite aos desenvolvedores trabalhar com bancos de dados relacionais usando objetos. Ele fornece classes para mapear entidades do banco de dados para classes C#, realizar consultas LINQ (Language-Integrated Query) e gerenciar transações.
 
 Essas são apenas algumas das bibliotecas e classes mais utilizadas em C#. A linguagem oferece uma ampla gama de opções para os desenvolvedores, permitindo que eles criem uma variedade de aplicativos de forma eficiente e eficaz.
