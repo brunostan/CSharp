@@ -1,6 +1,6 @@
 # Finalidades e Aplicações do C#
 
-O C# (C Sharp) é uma linguagem de programação versátil e poderosa amplamente utilizada no desenvolvimento de uma variedade de aplicativos, desde aplicações de desktop até aplicativos móveis, web e microserviços. Com recursos avançados e uma ampla gama de bibliotecas disponíveis, o C# oferece muitas opções para os desenvolvedores implementarem funcionalidades complexas em seus projetos. Neste artigo, exploraremos algumas das principais finalidades e aplicações do C#, juntamente com as bibliotecas e frameworks mais utilizados.
+O C# (C Sharp) é uma linguagem de programação versátil e poderosa amplamente utilizada no desenvolvimento de uma variedade de aplicativos, desde aplicações de desktop até aplicativos móveis, web e microserviços. Com recursos avançados e uma ampla gama de bibliotecas disponíveis, o C# oferece muitas opções para os desenvolvedores implementarem funcionalidades complexas em seus projetos. Neste artigo, exploraremos algumas das principais finalidades e aplicações do C#, juntamente com as bibliotecas e frameworks mais utilizados.                                                                                  
 
 ## 1. Desenvolvimento de Aplicativos para Windows
 
