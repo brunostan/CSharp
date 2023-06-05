@@ -213,27 +213,27 @@ public class Program
         await using var context = new MyDbContext();
 
         // Consulta de produtos
-        var products = await context.Products.ToListAsync();
+        var products = await context.Products.ToListAsync(); // Consulta todos os produtos e armazena em uma lista
 
         // Inserção de um novo produto
         var newProduct = new Product { Name = "Product A", Price = 9.99 };
-        context.Products.Add(newProduct);
-        await context.SaveChangesAsync();
+        context.Products.Add(newProduct); // Adiciona o novo produto ao contexto
+        await context.SaveChangesAsync(); // Salva as alterações no banco de dados
 
         // Atualização de um produto existente
-        var productToUpdate = await context.Products.FirstOrDefaultAsync(p => p.Id == 1);
+        var productToUpdate = await context.Products.FirstOrDefaultAsync(p => p.Id == 1); // Busca o produto com Id igual a 1
         if (productToUpdate != null)
         {
-            productToUpdate.Name = "New Name";
-            await context.SaveChangesAsync();
+            productToUpdate.Name = "New Name"; // Atualiza o nome do produto
+            await context.SaveChangesAsync(); // Salva as alterações no banco de dados
         }
 
         // Remoção de um produto
-        var productToDelete = await context.Products.FirstOrDefaultAsync(p => p.Id == 2);
+        var productToDelete = await context.Products.FirstOrDefaultAsync(p => p.Id == 2); // Busca o produto com Id igual a 2
         if (productToDelete != null)
         {
-            context.Products.Remove(productToDelete);
-            await context.SaveChangesAsync();
+            context.Products.Remove(productToDelete); // Remove o produto do contexto
+            await context.SaveChangesAsync(); // Salva as alterações no banco de dados
         }
     }
 }
