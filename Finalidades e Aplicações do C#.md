@@ -181,7 +181,7 @@ namespace SeuNamespace.Controllers
 
 ## 5. Acesso a Bancos de Dados com Entity Framework
 
-O acesso a bancos de dados é uma tarefa comum no desenvolvimento de aplicativos. O Entity Framework é uma biblioteca de mapeamento objeto-relacional (ORM) que simplifica a interação com bancos de dados relacionais, permitindo que os desenvolvedores realizem operações de banco de dados utilizando objetos e consultas em linguagem natural.
+O Entity Framework é uma biblioteca de mapeamento objeto-relacional (ORM) que simplifica o acesso a bancos de dados relacionais no desenvolvimento de aplicativos. Ele permite que os desenvolvedores realizem operações de banco de dados utilizando objetos e consultas em linguagem natural. Uma das principais vantagens do Entity Framework é sua integração com o LINQ (Language Integrated Query), que permite escrever consultas de forma intuitiva e legível, integrada à linguagem de programação utilizada. Com o Entity Framework e o LINQ, é possível simplificar o acesso a bancos de dados, aumentar a produtividade e facilitar a manutenção do código.
 
 Aqui está um exemplo de código utilizando o Entity Framework para consultar, inserir, atualizar e excluir registros em um banco de dados:
 
