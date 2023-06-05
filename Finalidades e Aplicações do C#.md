@@ -14,7 +14,8 @@ namespace YourNamespace
 {
     public class Program
     {
-        [STAThread] // Define o modelo de thread de aptidão de execução única para interagir com componentes COM e suportar a interface do usuário.
+        // Define o modelo de thread de aptidão de execução única para interagir com componentes COM e suportar a interface do usuário.
+        [STAThread] 
         static void Main()
         {
             // Define o modo de DPI e habilita estilos visuais fornecidos pelo sistema operacional
