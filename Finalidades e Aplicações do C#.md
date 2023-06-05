@@ -4,7 +4,7 @@ O C# (C Sharp) é uma linguagem de programação versátil e poderosa amplamente
     
 ## 1. Desenvolvimento de Aplicativos para Windows com WinForms
 
-Uma das principais aplicações do C# é o desenvolvimento de aplicativos para a plataforma Windows. Nesse contexto, uma das bibliotecas mais utilizadas é o Windows Forms (WinForms), que permite criar interfaces gráficas de usuário (GUI) de forma fácil e intuitiva. Com o WinForms, é possível criar janelas, botões, caixas de diálogo e outros elementos interativos. 
+O .NET Framework é um ambiente de tempo de execução desenvolvido pela Microsoft que suporta a execução de aplicativos em várias plataformas, incluindo o desenvolvimento de aplicativos desktop. Uma das bibliotecas mais comuns para criar aplicativos desktop usando o .NET Framework é o Windows Forms (WinForms). Com o Windows Forms, você pode criar interfaces gráficas de usuário ricas e interativas para seus aplicativos.
 
 Abaixo, segue um exemplo simples de código utilizando o WinForms:
 
@@ -175,6 +175,66 @@ namespace SeuNamespace.Controllers
     public class ObjetoExemplo
     {
         // Propriedades do objeto de exemplo
+    }
+}
+```
+
+## 5. Acesso a Bancos de Dados com Entity Framework
+
+O acesso a bancos de dados é uma tarefa comum no desenvolvimento de aplicativos. O Entity Framework é uma biblioteca de mapeamento objeto-relacional (ORM) que simplifica a interação com bancos de dados relacionais, permitindo que os desenvolvedores realizem operações de banco de dados utilizando objetos e consultas em linguagem natural.
+
+Aqui está um exemplo de código utilizando o Entity Framework para consultar, inserir, atualizar e excluir registros em um banco de dados:
+
+```csharp
+// Definição da classe de entidade
+public class Product
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public decimal Price { get; set; }
+}
+
+// Configuração do contexto de banco de dados
+public class MyDbContext : DbContext
+{
+    public DbSet<Product> Products { get; set; }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        optionsBuilder.UseSqlServer("connectionString"); // Define a string de conexão com o banco de dados
+    }
+}
+
+// Utilização do Entity Framework
+public class Program
+{
+    public static async Task Main()
+    {
+        await using var context = new MyDbContext();
+
+        // Consulta de produtos
+        var products = await context.Products.ToListAsync();
+
+        // Inserção de um novo produto
+        var newProduct = new Product { Name = "Product A", Price = 9.99 };
+        context.Products.Add(newProduct);
+        await context.SaveChangesAsync();
+
+        // Atualização de um produto existente
+        var productToUpdate = await context.Products.FirstOrDefaultAsync(p => p.Id == 1);
+        if (productToUpdate != null)
+        {
+            productToUpdate.Name = "New Name";
+            await context.SaveChangesAsync();
+        }
+
+        // Remoção de um produto
+        var productToDelete = await context.Products.FirstOrDefaultAsync(p => p.Id == 2);
+        if (productToDelete != null)
+        {
+            context.Products.Remove(productToDelete);
+            await context.SaveChangesAsync();
+        }
     }
 }
 ```
