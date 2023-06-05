@@ -62,19 +62,26 @@ namespace YourNamespace
 Outra aplicação popular do C# é o desenvolvimento de aplicativos web usando a estrutura ASP.NET. A biblioteca principal nesse contexto é o ASP.NET MVC (Model-View-Controller), que permite criar aplicativos web escaláveis e de fácil manutenção. O ASP.NET MVC separa a lógica de negócios (modelo), a interface do usuário (visualização) e o controle da aplicação (controlador). Vejamos um exemplo de um controlador simples usando o ASP.NET MVC:
 
 ```csharp
-using System.Web.Mvc;
+using Microsoft.AspNetCore.Mvc;
 
-public class HomeController : Controller
+namespace YourNamespace.Controllers
 {
-    public ActionResult Index()
+    public class HomeController : Controller
     {
-        return View();
-    }
+        // Ação para a página inicial
+        public IActionResult Index()
+        {
+            return View();
+        }
 
-    public ActionResult About()
-    {
-        ViewBag.Message = "Sobre a nossa aplicação.";
-        return View();
+        // Ação para a página "Sobre"
+        public IActionResult About()
+        {
+            // Define uma mensagem para ser exibida na view
+            ViewData["Message"] = "Sobre a nossa aplicação.";
+
+            return View();
+        }
     }
 }
 ```
