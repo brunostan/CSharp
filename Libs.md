@@ -83,7 +83,7 @@ public class CalculatorTests
 - Evite dependências externas em seus testes, criando mocks ou usando injeção de dependência para isolar as unidades de teste.
 
 
-## 2. Moq
+## 3. Moq
 
 O Moq é uma biblioteca de mocking (simulação) para criação de objetos simulados em testes unitários no C#. Ele permite criar objetos simulados que se comportam como as dependências reais do seu código, permitindo testar comportamentos específicos.
 
@@ -139,7 +139,7 @@ public void SendGreetingsEmail_CallsEmailService()
 - Considere o uso de mocks apenas quando necessário, priorizando testes com dependências reais sempre que possível.
 
 
-## 3. log4net
+## 4. log4net
 
 O log4net é uma biblioteca de log flexível que permite registrar eventos e informações durante a execução de um aplicativo C#. Ele oferece recursos para escrever logs em vários formatos e destinos, facilitando o rastreamento de problemas e a análise de registros.
 
